@@ -1,0 +1,36 @@
+<h1>Sign Up</h1>
+
+<form action="/register" method="POST">
+	<input type="text" name="username" placeholder="Username">
+	<input type="password" name="password" placeholder="Password">
+<br/>
+<br/>
+	<label for="securityQuestion1">Choose security question 1 :</label>
+
+	<select id="securityQuestion1" name="securityQuestion1">
+  		<option value="1">What Is your favorite book?</option>
+  		<option value="2" selected>What is the name of the road you grew up on?</option>
+  		<option value="3">What is your mother’s maiden name?</option>
+ 		<option value="4">What was the name of your first/current/favorite pet?</option>
+ 		<option value="5">What was the first company that you worked for?</option>
+	</select>
+	<input type="text" name="answer1" placeholder="Answer">
+	<br/>
+
+	<label for="securityQuestion2">Choose security question 2 :</label>
+	<select id="securityQuestion2" name="securityQuestion2">
+  		<option value="6">Where did you meet your spouse?</option>
+ 		<option value="7">Where did you go to high school/college?</option>
+ 		<option value="8" selected>What is your favorite food?</option>
+  		<option value="9">What city were you born in?</option>
+  		<option value="10">Where is your favorite place to vacation?</option>
+	</select>
+	<input type="text" name="answer2" placeholder="Answer">
+
+	<br/>
+	<button>Submit</button>
+</form>
+
+<li><a href = '/register'> Sign Up</a></li>
+<li><a href = '/login'> Login</a></li>
+<li><a href = '/logout'> Logout</a></li>
